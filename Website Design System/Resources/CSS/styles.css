@@ -1,0 +1,60 @@
+body{
+    margin: 0 5%;
+}
+
+.container{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px auto;
+}
+.color-container,.font-container,.style-container {
+    width:100%;
+}
+.color-panel,.font-panel {
+    display:inline-block;
+    width:32%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+}
+.red {
+    color: white;
+    background-color: red;
+}
+.blue {
+    color: white;
+    background-color: blue;
+}
+.green {
+    color: white;
+    background-color: green;
+}
+.font-label,.style-label {
+    text-decoration: underline;
+}
+.borel {
+    font-family: borel, sans-serif;
+}
+
+.poppins {
+    font-family: poppins, sans-serif;
+}
+
+.handjet {
+    font-family: handjet, sans-serif;
+}
+.style-panel h1{
+    font-weight:1000;
+    font-size: 30px;
+    font-family: borel, sans-serif;
+}
+.style-panel h2{
+    font-weight:700;
+    font-size: 25px;
+    font-family: poppins, sans-serif;
+}
+.style-panel p{
+    font-weight:500;
+    font-size: 20px;
+    font-family: handjet, sans-serif;
+}

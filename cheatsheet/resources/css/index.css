@@ -1,0 +1,13 @@
+th {
+    background-color: #87CEFA;
+}
+td {
+    border: 1px solid #87CEFA;
+    padding: 5px;
+    line-height: 1.5;
+}
+
+.tag {
+    background-color: #F08080;
+    font-family: monospace;
+}

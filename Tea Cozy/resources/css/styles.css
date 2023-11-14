@@ -1,0 +1,134 @@
+body {
+    background-color: black;
+    color: seashell;
+    opacity: 0.9;
+    font-family: "helvetica";
+    margin: 0;
+    padding: 0;
+}
+/* Navigation section */
+.container img {
+    display: inline-flex;
+    flex-direction: row;
+    height: 50px;
+    margin-left: 10px;
+}
+.container {
+    display: flex; 
+    width: 100%;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    z-index:2;
+    margin-top: -20px;
+}
+.navigation li {
+    list-style: none;
+    display: inline-flex;
+    padding-right: 25px;
+    text-decoration: underline;
+
+}
+/* Mission section */
+.mission {
+    height: 700px;
+    width: 1200px;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px auto;
+
+}
+  
+.goals {
+    background-color:black;
+    text-align:center;
+    position: relative;
+    top: 300px;
+    padding: 1px;
+    width: 1200px;
+    margin:0px auto;
+}
+/* Tea Section */
+h2,p {
+    text-align: center;
+    font-weight: bold;
+}
+
+.tea {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1000px;
+    margin: auto;
+}
+.tea img {
+    height: 200px;
+    width: 300px;
+    display:flex;
+    flex-basis: 300px;
+    flex-wrap: wrap;
+}
+
+.tea-1 {
+    text-align: center;
+    margin: 0 12px;
+}
+
+figcaption {
+    font-weight: bold;
+    margin: 10px;
+}
+
+/* Location Section */
+
+.location {
+    height: 500px;
+    width: 1200px;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+}
+
+.locations {
+    position: relative;
+    top: -115px;
+    left: 565px;
+}
+.different-locations {
+    display: flex;
+    justify-content: center;
+
+}
+
+.address {
+    background-color: black;
+    text-align: center;
+    width: 300px;
+    margin: 20px;
+    opacity: 1;
+}
+
+.contact {
+    display: flex;
+    height: 200px;
+    justify-content: center;
+
+}
+
+.detail {
+    text-align: center;
+}
+
+.copyright {
+    text-align: left;
+    margin: 20px;
+}
